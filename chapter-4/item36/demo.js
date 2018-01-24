@@ -20,7 +20,7 @@ var middle = new Tree(7);
 middle.addChild(left);
 middle.addChild(right);
 console.log(left.children); // [ 2, 3, 5, 6, { value: 1 }, { value: 4 } ]
-console.log(top.children); // [ 2, 3, 5, 6, { value: 1 }, { value: 4 } ]
+console.log(right.children); // [ 2, 3, 5, 6, { value: 1 }, { value: 4 } ]
 
 // @2 正确的实现方式 将状态存储在每个实例中
 function Tree1(value) {
